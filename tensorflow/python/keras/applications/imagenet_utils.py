@@ -207,6 +207,7 @@ def preprocess_input(x, data_format=None, mode='caffe'):
            'keras.applications.inception_v3.decode_predictions',
            'keras.applications.densenet.decode_predictions',
            'keras.applications.mobilenet.decode_predictions',
+           'keras.applications.mobilenet_v2.decode_predictions',
            'keras.applications.xception.decode_predictions')
 def decode_predictions(preds, top=5):
   """Decodes the prediction of an ImageNet model.

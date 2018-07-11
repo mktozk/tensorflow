@@ -17,6 +17,10 @@ tf_module {
     mtype: "<type \'module\'>"
   }
   member {
+    name: "mobilenet_v2"
+    mtype: "<type \'module\'>"
+  }
+  member {
     name: "nasnet"
     mtype: "<type \'module\'>"
   }
@@ -59,6 +63,10 @@ tf_module {
   member_method {
     name: "MobileNet"
     argspec: "args=[\'input_shape\', \'alpha\', \'depth_multiplier\', \'dropout\', \'include_top\', \'weights\', \'input_tensor\', \'pooling\', \'classes\'], varargs=None, keywords=None, defaults=[\'None\', \'1.0\', \'1\', \'0.001\', \'True\', \'imagenet\', \'None\', \'None\', \'1000\'], "
+  }
+  member_method {
+    name: "MobileNetV2"
+    argspec: "args=[\'input_shape\', \'alpha\', \'depth_multiplier\', \'include_top\', \'weights\', \'input_tensor\', \'pooling\', \'classes\'], varargs=None, keywords=None, defaults=[\'None\', \'1.0\', \'1\', \'True\', \'imagenet\', \'None\', \'None\', \'1000\'], "
   }
   member_method {
     name: "NASNetLarge"
