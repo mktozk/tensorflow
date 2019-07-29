@@ -67,6 +67,8 @@ from tensorflow.python.keras.applications.resnet import ResNet152
 from tensorflow.python.keras.applications.resnet_v2 import ResNet50V2
 from tensorflow.python.keras.applications.resnet_v2 import ResNet101V2
 from tensorflow.python.keras.applications.resnet_v2 import ResNet152V2
+from tensorflow.python.keras.applications.resnext import ResNeXt50
+from tensorflow.python.keras.applications.resnext import ResNeXt101
 from tensorflow.python.keras.applications.vgg16 import VGG16
 from tensorflow.python.keras.applications.vgg19 import VGG19
 from tensorflow.python.keras.applications.xception import Xception

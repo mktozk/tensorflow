@@ -31,6 +31,8 @@ MODEL_LIST = [
     (applications.ResNet50V2, 2048),
     (applications.ResNet101V2, 2048),
     (applications.ResNet152V2, 2048),
+    (applications.ResNeXt50, 2048),
+    (applications.ResNeXt101, 2048),
     (applications.VGG16, 512),
     (applications.VGG19, 512),
     (applications.Xception, 2048),
